@@ -6,18 +6,22 @@
         {
             "command": 
             {
+                "action": "copy",
+                "singleLine": false
+            },
+            "keys": "ctrl+c"
+        },
+        {
+            "command": 
+            {
                 "action": "newTab",
                 "index": 4
             },
             "keys": "ctrl+5"
         },
         {
-            "command": 
-            {
-                "action": "copy",
-                "singleLine": false
-            },
-            "keys": "ctrl+c"
+            "command": "paste",
+            "keys": "ctrl+v"
         },
         {
             "command": 
@@ -28,15 +32,18 @@
             "keys": "ctrl+2"
         },
         {
-            "command": "paste",
-            "keys": "ctrl+v"
-        },
-        {
             "command": 
             {
                 "action": "newTab"
             },
             "keys": "ctrl+t"
+        },
+        {
+            "command": 
+            {
+                "action": "closeTab"
+            },
+            "keys": "ctrl+w"
         },
         {
             "command": 
@@ -49,9 +56,10 @@
         {
             "command": 
             {
-                "action": "closeTab"
+                "action": "newTab",
+                "index": 2
             },
-            "keys": "ctrl+w"
+            "keys": "ctrl+3"
         },
         {
             "command": 
@@ -61,14 +69,6 @@
                 "splitMode": "duplicate"
             },
             "keys": "alt+shift+d"
-        },
-        {
-            "command": 
-            {
-                "action": "newTab",
-                "index": 2
-            },
-            "keys": "ctrl+3"
         },
         {
             "command": 
@@ -109,7 +109,7 @@
     ],
     "copyFormatting": "none",
     "copyOnSelect": false,
-    "defaultProfile": "{2c4de342-38b7-51cf-b940-2309a097f518}",
+    "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
     "newTabMenu": 
     [
         {
@@ -125,19 +125,6 @@
         "list": 
         [
             {
-                "font": 
-                {
-                    "face": "FiraCode NF",
-                    "size": 11.0
-                },
-                "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
-                "hidden": false,
-                "name": "Ubuntu",
-                "opacity": 80,
-                "source": "Windows.Terminal.Wsl",
-                "useAcrylic": true
-            },
-            {
                 "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
                 "font": 
                 {
@@ -148,6 +135,19 @@
                 "hidden": false,
                 "name": "Windows PowerShell",
                 "opacity": 80,
+                "useAcrylic": true
+            },
+            {
+                "font": 
+                {
+                    "face": "FiraCode NF",
+                    "size": 11.0
+                },
+                "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
+                "hidden": false,
+                "name": "Ubuntu",
+                "opacity": 80,
+                "source": "Windows.Terminal.Wsl",
                 "useAcrylic": true
             },
             {
