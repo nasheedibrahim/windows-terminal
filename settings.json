@@ -6,18 +6,18 @@
         {
             "command": 
             {
-                "action": "copy",
-                "singleLine": false
-            },
-            "keys": "ctrl+c"
-        },
-        {
-            "command": 
-            {
                 "action": "newTab",
                 "index": 4
             },
             "keys": "ctrl+5"
+        },
+        {
+            "command": 
+            {
+                "action": "copy",
+                "singleLine": false
+            },
+            "keys": "ctrl+c"
         },
         {
             "command": 
@@ -110,6 +110,12 @@
     "copyFormatting": "none",
     "copyOnSelect": false,
     "defaultProfile": "{2c4de342-38b7-51cf-b940-2309a097f518}",
+    "newTabMenu": 
+    [
+        {
+            "type": "remainingProfiles"
+        }
+    ],
     "profiles": 
     {
         "defaults": 
@@ -153,20 +159,16 @@
                 "useAcrylic": true
             },
             {
-                "guid": "{5cba7266-e40c-527e-9ca2-ec10d4f97331}",
+                "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
                 "hidden": false,
-                "name": "Developer PowerShell for VS 2022",
-                "opacity": 80,
-                "source": "Windows.Terminal.VisualStudio",
-                "useAcrylic": true
+                "name": "Azure Cloud Shell",
+                "source": "Windows.Terminal.Azure"
             },
             {
-                "guid": "{46ca431a-3a87-5fb3-83cd-11ececc031d2}",
+                "guid": "{51855cb2-8cce-5362-8f54-464b92b32386}",
                 "hidden": false,
-                "name": "Kali Linux",
-                "opacity": 80,
-                "source": "Windows.Terminal.Wsl",
-                "useAcrylic": true
+                "name": "Ubuntu",
+                "source": "CanonicalGroupLimited.Ubuntu_79rhkp1fndgsc"
             }
         ]
     },
@@ -404,5 +406,49 @@
         }
     ],
     "theme": "dark",
-    "themes": []
+    "themes": 
+    [
+        {
+            "name": "legacyDark",
+            "tab": 
+            {
+                "background": null,
+                "showCloseButton": "always",
+                "unfocusedBackground": null
+            },
+            "window": 
+            {
+                "applicationTheme": "dark",
+                "useMica": false
+            }
+        },
+        {
+            "name": "legacyLight",
+            "tab": 
+            {
+                "background": null,
+                "showCloseButton": "always",
+                "unfocusedBackground": null
+            },
+            "window": 
+            {
+                "applicationTheme": "light",
+                "useMica": false
+            }
+        },
+        {
+            "name": "legacySystem",
+            "tab": 
+            {
+                "background": null,
+                "showCloseButton": "always",
+                "unfocusedBackground": null
+            },
+            "window": 
+            {
+                "applicationTheme": "system",
+                "useMica": false
+            }
+        }
+    ]
 }
