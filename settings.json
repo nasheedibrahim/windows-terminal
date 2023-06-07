@@ -6,22 +6,18 @@
         {
             "command": 
             {
-                "action": "copy",
-                "singleLine": false
-            },
-            "keys": "ctrl+c"
-        },
-        {
-            "command": 
-            {
                 "action": "newTab",
                 "index": 4
             },
             "keys": "ctrl+5"
         },
         {
-            "command": "paste",
-            "keys": "ctrl+v"
+            "command": 
+            {
+                "action": "copy",
+                "singleLine": false
+            },
+            "keys": "ctrl+c"
         },
         {
             "command": 
@@ -32,18 +28,15 @@
             "keys": "ctrl+2"
         },
         {
+            "command": "paste",
+            "keys": "ctrl+v"
+        },
+        {
             "command": 
             {
                 "action": "newTab"
             },
             "keys": "ctrl+t"
-        },
-        {
-            "command": 
-            {
-                "action": "closeTab"
-            },
-            "keys": "ctrl+w"
         },
         {
             "command": 
@@ -56,10 +49,9 @@
         {
             "command": 
             {
-                "action": "newTab",
-                "index": 2
+                "action": "closeTab"
             },
-            "keys": "ctrl+3"
+            "keys": "ctrl+w"
         },
         {
             "command": 
@@ -69,6 +61,14 @@
                 "splitMode": "duplicate"
             },
             "keys": "alt+shift+d"
+        },
+        {
+            "command": 
+            {
+                "action": "newTab",
+                "index": 2
+            },
+            "keys": "ctrl+3"
         },
         {
             "command": 
@@ -128,7 +128,7 @@
                 "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -nologo",
                 "font": 
                 {
-                    "face": "FiraCode NF",
+                    "face": "FiraCode Nerd Font",
                     "size": 11.0
                 },
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
