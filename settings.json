@@ -6,18 +6,22 @@
         {
             "command": 
             {
+                "action": "copy",
+                "singleLine": false
+            },
+            "keys": "ctrl+c"
+        },
+        {
+            "command": 
+            {
                 "action": "newTab",
                 "index": 4
             },
             "keys": "ctrl+5"
         },
         {
-            "command": 
-            {
-                "action": "copy",
-                "singleLine": false
-            },
-            "keys": "ctrl+c"
+            "command": "paste",
+            "keys": "ctrl+v"
         },
         {
             "command": 
@@ -28,15 +32,18 @@
             "keys": "ctrl+2"
         },
         {
-            "command": "paste",
-            "keys": "ctrl+v"
-        },
-        {
             "command": 
             {
                 "action": "newTab"
             },
             "keys": "ctrl+t"
+        },
+        {
+            "command": 
+            {
+                "action": "closeTab"
+            },
+            "keys": "ctrl+w"
         },
         {
             "command": 
@@ -49,9 +56,10 @@
         {
             "command": 
             {
-                "action": "closeTab"
+                "action": "newTab",
+                "index": 2
             },
-            "keys": "ctrl+w"
+            "keys": "ctrl+3"
         },
         {
             "command": 
@@ -61,14 +69,6 @@
                 "splitMode": "duplicate"
             },
             "keys": "alt+shift+d"
-        },
-        {
-            "command": 
-            {
-                "action": "newTab",
-                "index": 2
-            },
-            "keys": "ctrl+3"
         },
         {
             "command": 
@@ -120,12 +120,16 @@
     {
         "defaults": 
         {
-            "colorScheme": "Tango Dark"
+            "colorScheme": "Tango Dark",
+            "font": 
+            {
+                "face": "FiraCode Nerd Font"
+            }
         },
         "list": 
         [
             {
-                "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -nologo",
+                "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -nologo \n",
                 "font": 
                 {
                     "face": "FiraCode Nerd Font",
@@ -151,12 +155,13 @@
                 "useAcrylic": true
             },
             {
+                "commandline": "%SystemRoot%\\System32\\cmd.exe /k",
+                "suppressApplicationTitle": true,
                 "font": 
                 {
                     "face": "FiraCode Nerd Font",
                     "size": 11.0
                 },
-                "commandline": "%SystemRoot%\\System32\\cmd.exe /k",
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
                 "hidden": false,
                 "name": "Command Prompt",
