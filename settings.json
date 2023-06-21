@@ -3,109 +3,24 @@
     "$schema": "https://aka.ms/terminal-profiles-schema",
     "actions": 
     [
-        {
-            "command": 
-            {
-                "action": "copy",
-                "singleLine": false
-            },
-            "keys": "ctrl+c"
-        },
-        {
-            "command": 
-            {
-                "action": "newTab",
-                "index": 4
-            },
-            "keys": "ctrl+5"
-        },
-        {
-            "command": "paste",
-            "keys": "ctrl+v"
-        },
-        {
-            "command": 
-            {
-                "action": "newTab",
-                "index": 1
-            },
-            "keys": "ctrl+2"
-        },
-        {
-            "command": 
-            {
-                "action": "newTab"
-            },
-            "keys": "ctrl+t"
-        },
-        {
-            "command": 
-            {
-                "action": "closeTab"
-            },
-            "keys": "ctrl+w"
-        },
-        {
-            "command": 
-            {
-                "action": "newTab",
-                "index": 0
-            },
-            "keys": "ctrl+1"
-        },
-        {
-            "command": 
-            {
-                "action": "newTab",
-                "index": 2
-            },
-            "keys": "ctrl+3"
-        },
-        {
-            "command": 
-            {
-                "action": "splitPane",
-                "split": "auto",
-                "splitMode": "duplicate"
-            },
-            "keys": "alt+shift+d"
-        },
-        {
-            "command": 
-            {
-                "action": "newTab",
-                "index": 3
-            },
-            "keys": "ctrl+4"
-        },
-        {
-            "command": 
-            {
-                "action": "newTab",
-                "index": 5
-            },
-            "keys": "ctrl+6"
-        },
-        {
-            "command": 
-            {
-                "action": "newTab",
-                "index": 6
-            },
-            "keys": "ctrl+7"
-        },
-        {
-            "command": 
-            {
-                "action": "newTab",
-                "index": 7
-            },
-            "keys": "ctrl+8"
-        },
-        {
-            "command": "find",
-            "keys": "ctrl+shift+f"
-        }
+        { "command": { "action": "copy", "singleLine": false }, "keys": "ctrl+c" },
+        { "command": { "action": "newTab", "index": 4 }, "keys": "ctrl+5" },
+        { "command": "paste","keys": "ctrl+v" },
+        { "command": { "action": "newTab", "index": 1 }, "keys": "ctrl+2" },
+        { "command": { "action": "newTab" }, "keys": "ctrl+t" },
+        { "command": { "action": "closeTab" }, "keys": "ctrl+w" },
+        { "command": { "action": "newTab", "index": 0 }, "keys": "ctrl+1" },
+        { "command": { "action": "newTab", "index": 2 }, "keys": "ctrl+3" },
+        { "command": { "action": "splitPane", "split": "auto", "splitMode": "duplicate" }, "keys": "alt+shift+d" },
+        { "command": { "action": "newTab", "index": 3 }, "keys": "ctrl+4" },
+        { "command": { "action": "newTab", "index": 5 }, "keys": "ctrl+6" },
+        { "command": { "action": "newTab", "index": 6 }, "keys": "ctrl+7" },
+        { "command": { "action": "newTab", "index": 7 }, "keys": "ctrl+8" },
+        { "command": "find", "keys": "ctrl+shift+f" },
+        { "command": { "action": "moveFocus", "direction": "down" }, "keys": "ctrl+down" },
+        { "command": { "action": "moveFocus", "direction": "left" }, "keys": "ctrl+left" },
+        { "command": { "action": "moveFocus", "direction": "right" }, "keys": "ctrl+right" },
+        { "command": { "action": "moveFocus", "direction": "up" }, "keys": "ctrl+up" }
     ],
     "copyFormatting": "none",
     "copyOnSelect": false,
